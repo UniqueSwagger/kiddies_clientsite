@@ -1,0 +1,24 @@
+.manager {
+  overflow: hidden;
+}
+.manager img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+}
+.manager img:hover {
+  transform: scale(1.1);
+}
+.manager-content {
+  position: absolute;
+  top: 54%;
+  background: #fff;
+  left: 18%;
+  width: 65%;
+  height: 20%;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}

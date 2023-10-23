@@ -1,0 +1,18 @@
+.checkout-btn {
+  background-color: #33415C;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.total {
+  color: #33415C;
+  background-color: #33415C;
+}
+.checkout-btn:hover {
+  background-color: #33415C;
+}
+.swal2-container{
+  z-index: 1000000 !important;
+}

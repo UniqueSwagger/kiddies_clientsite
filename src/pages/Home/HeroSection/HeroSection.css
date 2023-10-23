@@ -1,0 +1,35 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 22px;
+}
+.slider .carousel-control-prev,
+.slider .carousel-control-next {
+  background: #33415C;
+  padding: 0;
+  border: 0;
+  margin: 0 10px;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 59px;
+  text-align: center;
+  top: 50%;
+  opacity: 1;
+  transform: translateY(-50%);
+}
+.slider .carousel-control-prev:hover,
+.slider .carousel-control-next:hover {
+  background: #33415C;
+}
+@media screen and (max-width: 576px) {
+  .slider {
+    text-align: center;
+  }
+  .slider .carousel-control-prev,
+  .slider .carousel-control-next {
+    margin: 0 5px !important;
+    position: unset;
+  }
+}
